@@ -1,4 +1,4 @@
-# Frontend Mentor - Insure landing page solu
+# Frontend Practice - 
 This is a solution to the[ Frontend Practice](). Frontend practice challenges help you improve your coding skills thet take your frontend skills to the next level by recreating real websites.
 
 ## Table of contents
