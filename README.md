@@ -62,6 +62,7 @@ Users should be able to:
 - Responsiveness (fluid spacing, layout and fluid font size).  -->
 
 ### Useful resources
+[aria-current](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-current) - This helped to achieve setting/representing  the current item. e.g To show active nav link.
 
 <!-- - [A Deep Dive Into CSS Grid minmax()]() - This helped me  to achieve a 3 column responsive layout with 3 lines of code. I really liked this pattern and will use it going forward.
 - [Background position]() - This is an amazing article which helped me finally understand to position bg images in x and y axis. I'd recommend it to anyone still learning this concept. -->

@@ -4,6 +4,10 @@
     --clr-dark-gray: #7f7f7f;
     --clr-light-gray: #e8e5e480;
 
+    /* --fs-xl:;
+    --fs-heading:;
+    --fs-600:; */
+
 }
 
 /********************/
@@ -43,6 +47,7 @@
   -webkit-font-smoothing: antialiased;
   line-height: 1.5;
   font-family: 'Roboto', sans-serif;
+  background-color: var(--clr-white);
   }
   
   /* 7. Remove built-in form typography styles */
@@ -67,3 +72,37 @@
     margin: 0 auto;
     width: min(1100px , 95%);
   }
+
+
+  /********************/
+/*NAVIGATION*/
+/********************/
+.nav{
+    position: relative;
+    top: 20px;
+}
+.nav__list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    background-color: var(--clr-light-gray);
+    max-width: 300px;
+    margin: 0 auto;
+    padding: .9em;
+    border-radius: 100px;
+}
+.nav__item{
+    /* margin-left: 1em; */
+}
+.nav__link{
+    color: var(--clr-black);
+    font-size: .9rem;
+    padding: .9em  1.8em;
+}
+
+.nav__link[aria-current="page"]{
+    background-color: var(--clr-white);
+    border-radius: 100px;
+}

@@ -11,6 +11,7 @@
 - product detail page 
   - product title <h1> and product text label <span>
   - product imgs and descriptions
+  - top cancel icon
   
 ## contact page
 -  title <h1> with link
