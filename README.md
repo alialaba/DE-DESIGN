@@ -72,6 +72,6 @@ Users should be able to:
 ## Author
 
 - Website - [Aliyu AbdulGaniy](https://www.github.com/alialaba)
-- Frontend Mentor - [@alialaba](https://www.frontendmentor.io/profile/alialaba)
+
 - Twitter - [@thisaliaba](https://www.twitter.com/thisaliaba)
 
