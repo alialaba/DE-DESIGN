@@ -26,6 +26,7 @@
   }
   .profile__column-img img{
     border-radius: 200px;
+    object-fit: cover;
   }
   .profile__column-left, .profile__column-right{
     width: 20%;
