@@ -59,22 +59,22 @@
 
 
 .brand{
-/* display: grid;
-grid-template-columns: repeat(auto-fill, minmax(50px, 2fr));
-gap: 2em;
-align-items: center; */
 display: flex;
 flex-wrap: wrap;
 align-items: center;
-justify-content: space-between;
+justify-content: center;
 margin: 6rem 0;
-  /* padding: 4em; */
+
 }
 .brand__item{
   width: 20%;
   align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .brand__img{
+ 
   opacity: .5;
   transition: all 1.2s ease;
 }
@@ -87,10 +87,12 @@ margin: 6rem 0;
 /** skill sets**/
 
 .skill__list{
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(min(100%, 150px),2fr));
+  /* gap:1em; */
 }
 .skill__item{
-  width: 200px;
+  width: 150px;
   height: 200px;
   background-color: var(--clr-light-gray);
   margin-bottom: 2em;
