@@ -89,7 +89,7 @@ margin: 6rem 0;
 .skill__list{
   display: grid;
   grid-template-columns: repeat( auto-fit, minmax(min(100%, 150px),2fr));
-  /* gap:1em; */
+  border: 1px solid red;
 }
 .skill__item{
   width: 150px;
@@ -100,11 +100,17 @@ margin: 6rem 0;
   justify-content: center;
   align-items: center;
   border-radius: 100px;
+  border: 1px solid red;
+  
 }
 .skill__icon{
   opacity: 100%;
   transition: all 2.5s ease;
   filter: grayscale(100%);
+  border: 1px solid red;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
 }
 .skill__icon:hover{
   filter: grayscale(0%);
@@ -132,6 +138,25 @@ margin: 6rem 0;
 		transform:         translateY(-15px)
 	}
 }
+
+/* EXPERIENCE & EDUCATION */
+.timeline{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.timeline__year{
+  color: var(--clr-dark-gray);
+  margin-bottom: 3em;
+}
+.timeline__item{
+  margin-bottom: 2em;
+}
+.timeline__description{
+  color: var(--clr-dark-gray);
+}
+
 
 /*****************/
 /* MOBILE + TABLET */
