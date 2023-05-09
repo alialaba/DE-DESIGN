@@ -7,7 +7,7 @@ h1 a{
     color: var(--clr-dark-gray);
 }
 h1 a:hover{
-    color: var(--clr-light-gray);
+    opacity: 0.5;
     cursor: pointer;
 }
 .centered{
@@ -21,7 +21,6 @@ h1 a:hover{
     position: fixed;
    bottom: 0;
    width: 100%;
-    /*Height of the footer */
 
 }
 

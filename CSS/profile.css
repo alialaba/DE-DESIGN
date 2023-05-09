@@ -1,3 +1,4 @@
+/* profile */
 .profile__row{
     display: flex;
     justify-content: space-between;
@@ -58,6 +59,8 @@
   }
 
 
+  /* BRANDS */
+
 .brand{
 display: flex;
 flex-wrap: wrap;
@@ -74,7 +77,6 @@ margin: 6rem 0;
   justify-content: center;
 }
 .brand__img{
- 
   opacity: .5;
   transition: all 1.2s ease;
 }
@@ -83,13 +85,11 @@ margin: 6rem 0;
   cursor: pointer;
 }
 
-
 /** skill sets**/
 
 .skill__list{
   display: grid;
   grid-template-columns: repeat( auto-fit, minmax(min(100%, 150px),2fr));
-  border: 1px solid red;
 }
 .skill__item{
   width: 150px;
@@ -100,17 +100,12 @@ margin: 6rem 0;
   justify-content: center;
   align-items: center;
   border-radius: 100px;
-  border: 1px solid red;
   
 }
 .skill__icon{
   opacity: 100%;
   transition: all 2.5s ease;
   filter: grayscale(100%);
-  border: 1px solid red;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
 }
 .skill__icon:hover{
   filter: grayscale(0%);
@@ -150,8 +145,13 @@ margin: 6rem 0;
   color: var(--clr-dark-gray);
   margin-bottom: 3em;
 }
+
 .timeline__item{
   margin-bottom: 2em;
+}
+.timeline__title{
+  font-size: var(--fs-600);
+
 }
 .timeline__description{
   color: var(--clr-dark-gray);
@@ -162,9 +162,7 @@ margin: 6rem 0;
 /* MOBILE + TABLET */
 /*****************/
 @media (max-width:575px), (min-width: 576px) and (max-width:768px){
-   
-   
-     
+   /* PROFILE */
       .profile__column-img{
         width: 100%;
        margin-bottom: 2em;
@@ -180,8 +178,10 @@ margin: 6rem 0;
       .profile__column-left, .profile__column-right{
         width: 35%;
       }
-
-
+      .profile__title{
+        font-size: var(--fs-600);
+      }
+ /* brand */
       .brand__item{
         width: 50%;
         margin-bottom: 2em;
@@ -189,10 +189,12 @@ margin: 6rem 0;
       }
     
     
+      
   }
   
 
   @media (max-width:575px){
+    /* PROFILE */
     .profile__row{
         flex-direction: column;
       }
