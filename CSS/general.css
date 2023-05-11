@@ -177,6 +177,26 @@ h2{
 
 }
 
+
+/* PRODUCTS */
+.product__list{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2em;
+  
+}
+.product__item{
+  position: relative;
+}
+
+.product__img{
+  border-radius: 10px;
+}
+.product__name{
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
 /*****************/
 /* MEDIA QUERIES */
 /*****************/
