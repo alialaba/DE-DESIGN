@@ -11,7 +11,7 @@ const productsList = document.getElementById("product__list");
 products.forEach((product)=>{
 
 //Elements Variables
-const productElement = document.createElement("div");
+const productElement = document.createElement("article");
 const productImgElement = document.createElement("img");
 const productNameElement = document.createElement("p");
 const productLinkElement = document.createElement("a");
