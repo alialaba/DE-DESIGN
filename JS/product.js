@@ -8,7 +8,6 @@ const productTitleElement = document.createElement("h1");
 const productNameElement = document.createElement("span");
 
 const productCoverImgElement = document.createElement("img");
-// const productWorkLine = document.createElement("div");
 const productWorkLineListElement = document.createElement("ul");
 
 
@@ -18,11 +17,6 @@ const productArticleOneImgElement = document.createElement("img");
 const productArticleOneOverviewElement = document.createElement("p");
 
 const productArticleImgListElement = document.createElement("article");
-
-
-
-
-
 
 
 
@@ -72,31 +66,11 @@ for (const key in product.jobDetail) {
     //Append Element
     productWorkLineItemElement.appendChild(paragraphTitle);
     productWorkLineItemElement.appendChild(paragraphText);
-
     productWorkLineListElement.appendChild(productWorkLineItemElement)
-    
-
 }
-// })
-
-// let example = product.jobDetail;
-
-// for(let i = 0; i < example.length; i++){
-//     // console.log(example[i])
-//     const  paragraphTitle = document.createElement("p");
-//     const paragraphText = document.createElement("p");
-
-//     paragraphTitle.textContent = `Client ${example[i].client}`
-//     paragraphText.textContent = example[i].focus
-
-//     productWorkLineItemElement.appendChild(paragraphTitle)
-//     productWorkLineListElement.appendChild(productWorkLineItemElement);
-    
-// }
 
 
 product.productImgDetails.map((imgUrl)=>{
-    // console.log(imgUrl[index])
 
     const productArticleImgItemElement = document.createElement("div");
     const productArticleImgElement = document.createElement("img");
