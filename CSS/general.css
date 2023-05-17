@@ -209,7 +209,9 @@ h2{
 .product__item:hover  .product__overlay{
   opacity: 1;
 }
-
+.product__link-overlay{
+  cursor: pointer;
+}
 .product__img{
   border-radius: 10px;
   width: 100%;
@@ -243,10 +245,14 @@ h2{
 .product__link--light{
   background-color: var(--clr-white);
   color: var(--clr-black);
+  cursor: pointer;
 }
 .product__link--dark{
   background-color: var(--clr-black);
   color: var(--clr-white);
+}
+.product__coming-soon{
+  color: var(--clr-dark-gray);
 }
 /*****************/
 /* MEDIA QUERIES */
