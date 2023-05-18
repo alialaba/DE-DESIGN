@@ -1,4 +1,4 @@
-import products from "./productsData.js"
+import {products} from "./data.js"
 const productElement = document.getElementById("product");
 const productHeroSectionElement = document.createElement("section");
 const productListSectionElement = document.createElement("section")

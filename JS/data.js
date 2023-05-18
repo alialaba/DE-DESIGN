@@ -75,4 +75,46 @@ const products =[
 ]
 
 
-export default products;
+const timeline =[
+  {
+    year: "2010 - 2014",
+    items: [
+      {
+        title: "Bachelor Degree of Design",
+        description: "UDUS University"
+      },
+      {
+        title: "UI/UX Design Certificate",
+        description: "Sokoto State University"
+      }
+    ]},
+  {
+    year: "2015- 2002",
+    items: [
+      {
+        title: "Design Internship",
+        description: "Udemy"
+      },
+      {
+        title: "XD, Designer",
+        description: "Freelancer"
+      }
+    ]},
+  {
+
+    year: "2020- 2022",
+    items: [
+      {
+        title: "Junior Designer",
+        description: "iDesign"
+      },
+      {
+        title: "Lead Graphic Design",
+        description: "iHome Interorr"
+      }
+    ]}
+
+]
+
+
+export {products, timeline};
