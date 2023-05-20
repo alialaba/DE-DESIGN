@@ -9,10 +9,41 @@
     <link rel="stylesheet" href="/CSS/general.css">
         <!-- FONT AWESOME -->
   <script src="https://kit.fontawesome.com/3cf147ed19.js" crossorigin="anonymous"></script>
+  <style>
+    header{
+      width: 100%;
+      background-color: linear-gradient(rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%);
+      backdrop-filter: blur(3px);
+      padding: 2rem;
+      height: 20vh;
+      position: fixed;
+      z-index: 1;
+    }
+    nav{
+      position: relative;
+    }
+
+    .cancel{
+      background-color: aliceblue;
+      height: 50px;
+      width: 50px;
+      padding: .5em 1em;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.2rem;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+  </style>
 </head>
 <body>
     <header>
-      <nav><a href="#">Hello</a></nav>
+      <nav><a href="#" class="cancel__link" id="cancel" ><i class="fa-solid fa-xmark cancel"></i></a></nav>
     </header>
     <main id="product">
         <!-- GET IN TOUCH -->
@@ -41,7 +72,13 @@
     </div>
    </footer>
 
-    <!-- <script src="/JS/main.js"></script> -->
+    <script>
+      const idBtn = document.getElementById("cancel");
+      
+      idBtn.addEventListener("click", function(){
+        window.location.href = "/index.html"
+      })
+    </script>
     <script type="module" src="/JS/product.js"></script>
 </body>
 </html>
