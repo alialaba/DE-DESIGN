@@ -254,6 +254,45 @@ h2{
 .product__coming-soon{
   color: var(--clr-dark-gray);
 }
+
+/**********************/
+/* REFactor */
+.product__single-text{
+  padding: .5em 1em;
+  background-color: var(--clr-light-gray);
+  border-radius: 100px;
+  font-size: .8rem;
+
+}
+.workline__list{
+  display: flex;
+  flex-wrap: wrap;
+ column-gap: 2em;
+ row-gap: .5em;
+ padding: 2em 0;
+}
+.workline__item{
+  flex: 1 0 230px;
+}
+.workline__title{
+  text-transform: capitalize;
+  margin-bottom: .4em;
+  color: var(--clr-dark-gray);
+}
+.workline__text{
+  font-weight: 500;
+  font-size: .98rem;
+}
+.overview__content{
+  padding: 3em 0;
+}
+.overview__title{
+  color: var(--clr-dark-gray);
+  margin-bottom: 1em;
+}
+.overview__text{
+  width: min(500px, 100%);
+}
 /*****************/
 /* MEDIA QUERIES */
 /*****************/

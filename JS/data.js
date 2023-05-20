@@ -13,7 +13,7 @@ const products =[
     },
     productImg2: {
     img:"https://framerusercontent.com/images/kfr022WaJ8YJUyZFmdwCB3pXhs.jpg?scale-down-to=2048",
-        overview: "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis porro labore rerum repellat error. Maxime facere natus mollitia sequi suscipit?"
+        overview: "As a lead designer, I played a pivotal role in designing and implementing a robust e-commerce platform, resulting in a 30% increase in sales within the first quarter. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis porro labore rerum repellat error. Maxime facere natus mollitia sequi suscipit?"
     },
      productImgDetails:["https://framerusercontent.com/images/3wAtzo0qvmxyJhsWXvruyTZtRU.jpg?scale-down-to=2048","https://i.ibb.co/cgqPC3V/aire.png", "https://framerusercontent.com/images/kfr022WaJ8YJUyZFmdwCB3pXhs.jpg?scale-down-to=2048", "https://i.ibb.co/YNRBXV1/correlated.png"]  
   },
@@ -30,7 +30,7 @@ const products =[
     },
       productImg2: {
          img:"https://example.com/productB.jpg",
-         overview: "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis porro labore rerum repellat error. Maxime facere natus mollitia sequi suscipit?"
+         overview: "As a lead developer, I played a pivotal role in designing and implementing a robust e-commerce platform, resulting in a 30% increase in sales within the first quarter,  Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis porro labore rerum repellat error. Maxime facere natus mollitia sequi suscipit?"
       },
       productImgDetails:["https://example.com/productB.jpg", "https://example.com/productB.jpg", "https://example.com/productB.jpg"]
     },

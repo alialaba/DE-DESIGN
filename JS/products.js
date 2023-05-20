@@ -76,7 +76,7 @@ productLinkIconElement.appendChild(iconElement)
 
 
 }
-
+products.forEach((product)=> showProductList(product))
 
 
 
@@ -132,4 +132,3 @@ timelineYearElement.textContent =item.year
 
 }
 timeline.forEach((item)=> showExperienceTimeline(item))
-products.forEach((product)=> showProductList(product))

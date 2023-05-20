@@ -13,8 +13,10 @@ const productWorkLineListElement = document.createElement("ul");
 
 const productArticleElement = document.createElement("article");
 const productArticleOneElement = document.createElement("article");
-const productArticleOneImgElement = document.createElement("img");
-const productArticleOneOverviewElement = document.createElement("p");
+const productOverviewContentElement = document.createElement("div")
+const productOverviewImgElement = document.createElement("img");
+const productOverviewTitleElement = document.createElement("h5")
+const productOverviewTextElement = document.createElement("p");
 
 const productArticleImgListElement = document.createElement("article");
 
@@ -35,15 +37,22 @@ if(product){
 productTitleElement.textContent = product.title;
 productNameElement.textContent= product.name;
 productCoverImgElement.src = product.imgCover;
-productArticleOneImgElement.src = product.productImg2["img"]
-productArticleOneOverviewElement.textContent =  product.productImg2["overview"]
+productOverviewImgElement.src = product.productImg2["img"]
+productOverviewTitleElement.textContent ="Overview"
+productOverviewTextElement.textContent =  product.productImg2["overview"]
 
 
 //Add ClassNames
+productNameElement.className ="product__single-text"
 productWrapHeroElement.classList.add("container" , "center");
 productWrapProductListElement.classList.add("container" , "testing")
-productArticleElement.className = "article"
-productWorkLineListElement.className ="workline__list"
+productArticleElement.className = "article";
+productArticleOneElement.className ="overview";
+productOverviewContentElement.className ="overview__content"
+productOverviewImgElement.className ="overview__img";
+productOverviewTitleElement.className ="overview__title"
+productOverviewTextElement.className ="overview__text";
+productWorkLineListElement.className ="workline__list";
 
 productArticleImgListElement.className ="product__img-list"
 
@@ -51,8 +60,6 @@ for (const key in product.jobDetail) {
     const productWorkLineItemElement = document.createElement("li");
     const paragraphTitle = document.createElement("p");
     const paragraphText = document.createElement("p");
-
-
 
     //ClassName
     productWorkLineItemElement.className = "workline__item";
@@ -71,7 +78,6 @@ for (const key in product.jobDetail) {
 
 
 product.productImgDetails.map((imgUrl)=>{
-
     const productArticleImgItemElement = document.createElement("div");
     const productArticleImgElement = document.createElement("img");
 
@@ -103,9 +109,11 @@ productArticleElement.appendChild(productWorkLineListElement);
 productArticleElement.appendChild(productWorkLineListElement)
 
 productWrapProductListElement.appendChild(productArticleOneElement);
-productArticleOneElement.appendChild(productArticleOneImgElement)
-productArticleOneElement.appendChild(productArticleOneOverviewElement)
-productWrapProductListElement.appendChild(productArticleImgListElement)
+productArticleOneElement.appendChild(productOverviewImgElement);
+productArticleOneElement.appendChild(productOverviewContentElement )
+productOverviewContentElement.appendChild(productOverviewTitleElement);
+productOverviewContentElement.appendChild(productOverviewTextElement);
+productWrapProductListElement.appendChild(productArticleImgListElement);
 // productArticleImgListElement.appendChild(productArticleImgItemElement)
 
 }
