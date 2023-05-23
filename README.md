@@ -62,7 +62,9 @@ Users should be able to:
 - Responsiveness (fluid spacing, layout and fluid font size).  -->
 
 ### Useful resources
+
 [aria-current](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-current) - This helped to achieve setting/representing  the current item. e.g To show active nav link.
+[fading up sections using intersection-observer](https://dev.to/jslim/fading-up-sections-using-intersection-observer-3fhj)
 [Fixed Vs Sticky Position](https://www.kevinpowell.co/article/positition-fixed-vs-sticky/)
 [filter in css](https://css-tricks.com/almanac/properties/f/filter/) - This helped to achieve img grayscale.
 

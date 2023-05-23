@@ -12,8 +12,9 @@
 
 }
 section, footer{
-  padding: 3.5em 0;
+  padding: 2.5em 0;
 }
+
 
 /********************/
 /*CSS RESETS*/
@@ -81,7 +82,17 @@ section, footer{
     padding-bottom: 2rem;  */
   }
 
-
+.fade__up{
+  transform: translateY(50px);
+  opacity: 0;
+  transition-property: transform , opacity;
+  transition-duration:  1s;
+  transition-timing-function: linear;
+}
+.fade__view.fade__up, .fade__view .fade__up{
+  opacity: 1;
+  transform: none;
+}
   /********************/
 /*NAVIGATION*/
 /********************/
