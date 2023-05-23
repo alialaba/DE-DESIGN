@@ -1,9 +1,9 @@
 # Frontend Practice - 
-This is a solution to the[ Frontend Practice](). Frontend practice challenges help you improve your coding skills thet take your frontend skills to the next level by recreating real websites.
+This is a solution to the[[ Frontend Practice](https://www.frontendpractice.com/projects/oh-studio). Frontend practice challenges help you improve your coding skills thet take your frontend skills to the next level by recreating real websites.
 
 ## Table of contents
 
-- [Frontend Mentor - Insure landing page solu](#oh design)
+- [Frontend Practive - Insure landing page solu](#oh design)
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
     - [Requirements](#requirements)
@@ -23,6 +23,8 @@ This is a solution to the[ Frontend Practice](). Frontend practice challenges he
 - Responsive fluid layout 
 - hover states
 - sticky navigation header
+- fade Transitions
+- Animations
 ### The challenge
 
 Users should be able to:
@@ -37,16 +39,19 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here]()
-- Live Site URL: [Add live site URL here]()
+- Solution URL: [@github](https://github.com/alialaba/DE-DESIGN)()
+- Live Site URL: [@netlify](https://designer-showcase.netlify.app/)
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
+- DOM
+- Dummy Datas
 - CSS custom properties
 - CSS Grid
+- Transition/ Animation
 
 
 ### What I learned
@@ -58,6 +63,7 @@ Users should be able to:
 ### Continued development
 - scroll animation
 - fading with intersection observer
+- DOM
 <!-- - Css positioning and pseudo element
 - Responsiveness (fluid spacing, layout and fluid font size).  -->
 
