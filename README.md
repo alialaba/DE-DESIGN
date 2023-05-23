@@ -34,12 +34,12 @@ Users should be able to:
 
 ### Screenshot
 
-![de design](./images/screenshot.png)
+![de design](./img/profile-page.png)
 
 
 ### Links
 
-- Solution URL: [@github](https://github.com/alialaba/DE-DESIGN)()
+- Solution URL: [@github](https://github.com/alialaba/DE-DESIGN)
 - Live Site URL: [@netlify](https://designer-showcase.netlify.app/)
 
 ## My process
