@@ -3,7 +3,6 @@ import {timeline} from "./data.js"
 //DOM Variable Elements
 const experienceTimeline = document.querySelector(".timeline");
 //DOM Variable element
-console.log(experienceTimeline)
 function showExperienceTimeline(item){
 
     //DOM create Element
@@ -49,4 +48,8 @@ function showExperienceTimeline(item){
    
    }
    timeline.forEach((item)=> showExperienceTimeline(item))
+   
+
+
+
    
