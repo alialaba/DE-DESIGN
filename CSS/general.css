@@ -140,9 +140,10 @@ h2{
   text-align: center;
   width: min(800px, 90%);
   margin: 6em auto;
+  margin-bottom: 1em;
 }
 .subheading{
-  margin-bottom: 4em;
+  margin-bottom: 3em;
 }
 
 /* GET IN TOUCH */
@@ -198,11 +199,9 @@ h2{
 }
 .product__item{
   position: relative;
-  /* overflow: hidden; */
 }
 .product__item .product__overlay{
   background-color: rgba(0,0,0, 0.5);
-  /* filter: blur(10px); */
   backdrop-filter: blur(5px);
   border-radius: 10px;
   position: absolute;
