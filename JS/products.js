@@ -21,8 +21,6 @@ const productColIconElement = document.createElement("div")
 const productComingSoon = document.createElement("p");
 
 
-// const productElem = document.createElement("div");
-
 //Assign data content
 productNameElement.textContent = product.name;
 productImgElement.src = product.imgCover;
@@ -35,7 +33,7 @@ productNameElement.className ="product__name"
 productOverlayElement.className ="product__overlay"
 productContentElement.className = "product__content"
 
-//Conditional Link Icon display
+//Display product that is done
 if(product.done){
     // display link icon
     iconElement.classList.add("fa-solid", "fa-arrow-up");
@@ -65,8 +63,7 @@ productLinkElement.appendChild(productOverlayElement)
 
 productElement.appendChild(productImgElement);
 productElement.appendChild(productContentElement);
-// productContentElement.appendChild(productNameElement);
-// productContentElement.appendChild(productLinkIconElement);
+
 productContentElement.appendChild(productColTextElement);
 productContentElement.appendChild(productColIconElement);
 productColTextElement.appendChild(productNameElement);

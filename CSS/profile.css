@@ -140,6 +140,7 @@ margin: 6rem 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  gap:2em;
 }
 
 .timeline__year{
