@@ -76,13 +76,14 @@ for (const key in product.jobDetail) {
     productWorkLineListElement.appendChild(productWorkLineItemElement)
 }
 
-
-product.productImgDetails.map((imgUrl)=>{
+//
+product.productImgDetails.map((imgUrl, index)=>{
+    console.log(index)
     const productArticleImgItemElement = document.createElement("div");
     const productArticleImgElement = document.createElement("img");
 
     //ClassNames
-    productArticleImgItemElement.className ="product__img-item";
+    productArticleImgItemElement.classList.add("product__img-item", `product__img-item--${index}`);
     productArticleImgElement.className = "product__img";
     productArticleImgElement.src = imgUrl;  
 
