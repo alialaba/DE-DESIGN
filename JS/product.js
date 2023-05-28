@@ -76,7 +76,7 @@ for (const key in product.jobDetail) {
     productWorkLineListElement.appendChild(productWorkLineItemElement)
 }
 
-//
+//display array of images 
 product.productImgDetails.map((imgUrl, index)=>{
     console.log(index)
     const productArticleImgItemElement = document.createElement("div");

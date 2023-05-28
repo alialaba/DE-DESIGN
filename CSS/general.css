@@ -310,23 +310,19 @@ h2{
 
   display: grid;
   gap: 2em;
-  /* grid-template-columns: 1fr 30vw  1fr; */
-  /* grid-template-rows: 50vh 5em 5em auto; */
 }
 
-.product__img-item--0{
+.product__img-item--0, .product__img-item--3, .product__img-item--6, .product__img-item--7{
   grid-column: 1/4;
 }
-.product__img-item--1{
+.product__img-item--1, .product__img-item--4{
   grid-column: 1/2;
 }
-.product__img-item--2{
+.product__img-item--2, .product__img-item--5{
   grid-column: 3/4;
-  /* grid-row: 1/2; */
 }
-.product__img-item--3{
-  grid-column: 1/4;
-}
+
+
 
 /*****************/
 /* MEDIA QUERIES */
