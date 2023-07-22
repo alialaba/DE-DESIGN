@@ -12,6 +12,7 @@ This is a solution to the[[ Frontend Practice](https://www.frontendpractice.com/
     - [Links](#links)
   - [My process](#my-process)
     - [Built with](#built-with)
+    - [How to use it as your portfolio](#How-to-use-it-as-your-portfolio)
     - [What I learned](#what-i-learned)
     - [Continued development](#continued-development)
     - [Useful resources](#useful-resources)
@@ -53,34 +54,119 @@ Users should be able to:
 - CSS Grid
 - Transition/ Animation
 
+### How to use it as your portfolio
+- visit the my [@github](https://github.com/alialaba/DE-DESIGN)
+<!-- - ![download zip file](./img/Inkeddownload%20zip.jpg) -->
 
+- Add No of designs you have worked on and provide design images
+
+```
+const products =[
+    {
+    id: 1,
+    name: "ProductA",
+    done: true,
+    imgCover: "https://yourprojectdesigncoverimg",
+    title: "Fintech App",
+    jobDetail:{
+      client: "ProductA",
+      role: "Creative Director",
+      focus: "Brand identity"
+    },
+    productImg2: {
+    img:"https://yourdesignoverviewimg",
+        overview: "As a lead designer, I played a pivotal role in designing and implementing a robust e-commerce platform, resulting in a 30% increase in sales within the first quarter. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis porro labore rerum repellat error. Maxime facere natus mollitia sequi suscipit?"
+    },
+     productImgDetails:["https://fintech1","https://fintech2", "https://fintech3", "https://fintech4"]  
+  },
+  {
+    id: 2,
+    name: "ProductB",
+    done: false,
+    imgCover: "https://yourprojectdesigncoverimg",
+    title: "Restaurant App",
+    jobDetail:{
+      client: "ProductB",
+      role: "Creative Director",
+      focus: "Brand identity"
+    },
+      productImg2: {
+         img:"https://example.com/productB.jpg",
+         overview: "As a lead developer, I played a pivotal role in designing and implementing a robust e-commerce platform, resulting in a 30% increase in sales within the first quarter,  Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis porro labore rerum repellat error. Maxime facere natus mollitia sequi suscipit?"
+      },
+      productImgDetails:["https://restaurant1.jpg", "https://restaurant2.jpg", "https://restaurant3.jpg"]
+    },
+]
+```
+
+- Year of experience info
+  ```
+  const timeline =[
+  {
+    year: "2010 - 2014",
+    items: [
+      {
+        title: "Bachelor Degree of Design",
+        description: "UDUS University"
+      },
+      {
+        title: "UI/UX Design Certificate",
+        description: "Sokoto State University"
+      }
+    ]},
+  {
+    year: "2015- 2002",
+    items: [
+      {
+        title: "Design Internship",
+        description: "Udemy"
+      },
+      {
+        title: "XD, Designer",
+        description: "Freelancer"
+      }
+    ]},
+  {
+
+    year: "2020- 2022",
+    items: [
+      {
+        title: "Junior Designer",
+        description: "iDesign"
+      },
+      {
+        title: "Lead Graphic Design",
+        description: "iHome Interorr"
+      }
+    ]}
+
+]
+
+  ```
 ### What I learned
-<!-- - Strengthen my knowledge on BEM pattern for naming convention.
-- Understand the trick of min css property and minmax() with grid Css
-- Enhance my css positioning skills and usage of pseudo elements -->
+- Strengthen my knowledge on DOM.
+- Understand the tricks of fluid layout.
+- Enhance my css Animations skills.
 
 
 ### Continued development
-- scroll animation
-- fading with intersection observer
+- Animation/ Transitioning
+- Intersection observer Api
 - DOM
-<!-- - Css positioning and pseudo element
-- Responsiveness (fluid spacing, layout and fluid font size).  -->
+
 
 ### Useful resources
 
 [aria-current](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-current) - This helped to achieve setting/representing  the current item. e.g To show active nav link.
 [fading up sections using intersection-observer](https://dev.to/jslim/fading-up-sections-using-intersection-observer-3fhj)
+[intersection observer Api] (https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API)
 [Fixed Vs Sticky Position](https://www.kevinpowell.co/article/positition-fixed-vs-sticky/)
 [filter in css](https://css-tricks.com/almanac/properties/f/filter/) - This helped to achieve img grayscale.
 
-<!-- - [A Deep Dive Into CSS Grid minmax()]() - This helped me  to achieve a 3 column responsive layout with 3 lines of code. I really liked this pattern and will use it going forward.
-- [Background position]() - This is an amazing article which helped me finally understand to position bg images in x and y axis. I'd recommend it to anyone still learning this concept. -->
 
 
 ## Author
 
 - Website - [Aliyu AbdulGaniy](https://www.github.com/alialaba)
-
 - Twitter - [@thisaliaba](https://www.twitter.com/thisaliaba)
 
