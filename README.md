@@ -139,10 +139,8 @@ const products =[
         description: "iHome Interorr"
       }
     ]}
-
 ]
-
-  ```
+```
 ### What I learned
 - Strengthen my knowledge on DOM.
 - Understand the tricks of fluid layout.

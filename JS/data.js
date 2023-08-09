@@ -77,40 +77,40 @@ const products =[
 
 const timeline =[
   {
-    year: "2010 - 2014",
+    year: "2021 - 2022",
     items: [
       {
-        title: "Bachelor Degree of Design",
-        description: "UDUS University"
+        title: "User Experience Certificate",
+        description: "Interaction Design Foundation"
       },
       {
-        title: "UI/UX Design Certificate",
-        description: "Sokoto State University"
+        title: "UX Portfolio Certificate",
+        description: "Interaction Design Foundation"
       }
     ]},
   {
-    year: "2015- 2002",
+    year: "2023 - till date",
     items: [
       {
-        title: "Design Internship",
-        description: "Udemy"
+        title: "Lead Graphic UI Design",
+        description: "Brainstack Academy"
       },
       {
-        title: "XD, Designer",
-        description: "Freelancer"
+        title: "UI/UX Designer",
+        description: "Sparro"
       }
     ]},
   {
 
-    year: "2020- 2022",
+    year: "2021- 2022",
     items: [
       {
-        title: "Junior Designer",
-        description: "iDesign"
+        title: "UI/UX Designer",
+        description: "Taskmobile.ng"
       },
       {
-        title: "Lead Graphic Design",
-        description: "iHome Interorr"
+        title: "Lead Product Designer",
+        description: "Tracker"
       }
     ]}
 
