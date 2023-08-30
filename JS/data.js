@@ -128,6 +128,20 @@ const timeline =[
         description: "Interaction Design Foundation"
       }
     ]},
+    {
+
+      year: "2021- 2022",
+      items: [
+        {
+          title: "UI/UX Designer",
+          description: "Taskmobile.ng"
+        },
+        {
+          title: "Lead Product Designer",
+          description: "Tracker"
+        }
+      ]},
+  
   {
     year: "2023 - till date",
     items: [
@@ -140,20 +154,7 @@ const timeline =[
         description: "Sparro"
       }
     ]},
-  {
-
-    year: "2021- 2022",
-    items: [
-      {
-        title: "UI/UX Designer",
-        description: "Taskmobile.ng"
-      },
-      {
-        title: "Lead Product Designer",
-        description: "Tracker"
-      }
-    ]}
-
+ 
 ]
 
 
