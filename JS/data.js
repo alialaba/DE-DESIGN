@@ -5,7 +5,7 @@ const products =[
     id: 1,
     name: "Xine",
     done: true,
-    imgCover:  "https://i.ibb.co/56yHdRB/xine-6.png",
+    imgCover:  "/img/xine.png",
     title: "Project management tool ",
     jobDetail:{
       client: "Xine",
@@ -13,34 +13,34 @@ const products =[
       focus: "Saas"
     },
     productImg2: {
-    img:"https://i.ibb.co/VYxWHrJ/xine-7.png",
+    img:"/img/xine-7.jpeg",
         overview: "An effective project management tool for tracking and managing assignments and projects collaboratively."
     },
     
-     productImgDetails:["https://i.ibb.co/S68XfDD/xine-3.png","https://i.ibb.co/3Mqc1D9/xine-8.png", "https://i.ibb.co/rHr53dH/xine-6.png","https://i.ibb.co/NLCqDBd/xine-5.png" ]  
+     productImgDetails:["/img/xine-3.png","/img/xine-8.png", "/img/xi1.png","/img/xine-5.png" ]  
   },
   {
     id: 2,
     name: "Rutole",
     done: true,
-    imgCover:  "https://i.ibb.co/ZT8WVn2/twitter-2.png",
+    imgCover:  "/img/rutole-1.png",
     title: "Prioritize safety while driving",
     jobDetail:{
       client: "Rutole",
       role: "Product Desiner, Brant Designer, Ux writer, Interaction Design",
-      focus: "Brand identity"
+      focus: "Safety"
     },
       productImg2: {
-         img:"https://i.ibb.co/Rhp4fdm/Mac-Book-Pro-14-14.png",
+         img:"/img/rutole-2.png",
          overview: "Prioritizing road safety benefits you, fellow drivers, and your finances. Safe driving lowers accident risks, cuts expenses, and increases earnings through reduced repair and insurance costs. Make safety your driving focus for financial and road well-being."
       },
-      productImgDetails:["https://i.ibb.co/sJRkDX7/Mac-Book-Pro-14-12.png", "https://i.ibb.co/TcTPDCJ/Rutole-website.png", "https://i.ibb.co/N3TD4dj/dribble-rutole-post.png", "https://i.ibb.co/StVcqg2/Mac-Book-Pro-16-6.png"]
+      productImgDetails:["/img/rutole-3.png", "/img/rutole-4.png", "/img/rutole-5.png", "/img/rutole-6.png"]
     },
   {
     id: 3,
     name: "Cretly",
     done: true,
-    imgCover:  "https://i.ibb.co/Rb2L36y/Mac-Book-Air-42-dark.png",
+    imgCover:  "/img/cretly-1.png",
     title: "Ensuring timely and efficient disposal of refuse. ",
     jobDetail:{
       client: "Cretly",
@@ -48,17 +48,17 @@ const products =[
       focus: "Saas"
     },
     productImg2: {
-    img:"https://i.ibb.co/L85BDdM/cretly-011.png",
+    img:"/img/cretly-2.png",
     overview: "Recycling is crucial in today's eco-conscious world, yet awareness is lacking. We educate clients on recycling's importance and provide convenient recycling solutions."
     },
     productImgDetails:
-    [ "https://i.ibb.co/5YX6TCS/Mac-Book-Air-49-dark.png","https://i.ibb.co/Rb2L36y/Mac-Book-Air-42-dark.png", "https://i.ibb.co/xFCdxqd/Mac-Book-Air-29.png", "https://i.ibb.co/VqJkgNb/Mac-Book-Air-33-2.png"]
+    [ "/img/cretly-3.png","img/cretly-4.png", "img/cretly-5.png", "img/cretly-6.png"]
     },
     {
       id: 4,
       name: "Mini portfolio",
       done: false,
-      imgCover: "https://i.ibb.co/Jx4BwmT/Mac-Book-Pro-14-16.png",
+      imgCover: "/img/nifstate-2.png",
       title: "A better way of creating portfoio",
       jobDetail:{
         client: "Ali",
@@ -66,11 +66,11 @@ const products =[
         focus: "Portfolios"
       },
       productImg2: {
-      img:"https://example.com/productB.jpg",
+      img:"/img/nifstate-3.png",
           overview: "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis porro labore rerum repellat error. Maxime facere natus mollitia sequi suscipit?"
       }, 
       productImgDetails:
-       ["https://example.com/productB.jpg","https://example.com/productB.jpg","https://example.com/productB.jpg",  ]
+       ["/img/nifstate-5.png","https://example.com/productB.jpg","https://example.com/productB.jpg",  ]
       },
       {
         id: 5,

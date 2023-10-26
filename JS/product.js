@@ -37,6 +37,7 @@ if(product){
 productTitleElement.textContent = product.title;
 productNameElement.textContent= product.name;
 productCoverImgElement.src = product.imgCover;
+productCoverImgElement.style.width ="100%";
 productOverviewImgElement.src = product.productImg2["img"]
 productOverviewTitleElement.textContent ="Overview"
 productOverviewTextElement.textContent =  product.productImg2["overview"]

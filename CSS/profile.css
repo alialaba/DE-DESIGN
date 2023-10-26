@@ -67,6 +67,7 @@ flex-wrap: wrap;
 align-items: center;
 justify-content: center;
 margin: 6rem 0;
+gap: 2em;
 
 }
 .brand__item{
