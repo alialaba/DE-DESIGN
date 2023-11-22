@@ -58,7 +58,7 @@ const products =[
       id: 4,
       name: "Mini portfolio",
       done: false,
-      imgCover: "/img/nifstate-2.png",
+      imgCover: "/img/aesthetic.png",
       title: "A better way of creating portfoio",
       jobDetail:{
         client: "Ali",
@@ -66,7 +66,7 @@ const products =[
         focus: "Portfolios"
       },
       productImg2: {
-      img:"/img/nifstate-3.png",
+      img:"/img/aesthetic.png",
           overview: "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis porro labore rerum repellat error. Maxime facere natus mollitia sequi suscipit?"
       }, 
       productImgDetails:
